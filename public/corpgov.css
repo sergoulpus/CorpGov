@@ -1,0 +1,106 @@
+/* 
+    2
+    Document   : corpgov
+    Created on : 18.09.2012, 19:19:53
+    Author     : sergo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+	display: block;
+	font:15px sans-serif;
+}
+
+body, td, th, td, div {
+	font:12px sans-serif;
+}
+
+td {
+	padding: 3px;
+	padding-left: 10px;
+	border-left: 1px solid grey;
+}
+
+span {
+/*	border: 1px dashed red !important;*/
+}
+
+td.isik_column {
+	width: 400px !important;
+}
+
+td.firstColCell {
+	font-weight: bold;
+}
+
+td.sectionHeaderRow {
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 110%;
+}
+
+table	 {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+th {
+	background-color: lightslategray;
+	color: white;
+}
+
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)		{ background-color:#fff; }
+
+
+.error {
+
+	color:red;
+}
+
+input[type=text], option, select {
+	width: 95%;
+}
+
+.highlight{
+	border: 1px solid pink;
+}
+
+.highlight_hover{
+	background-color: lightgoldenrodyellow !important;
+}
+
+
+
+.rCorners {
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+
+}
+
+fieldset {
+		-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+
+}
+
+
